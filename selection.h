@@ -8,7 +8,8 @@ void selectionSort(int a[], int N){
 
   cout<<endl<<"Before Sorting"<<endl;
   display(a, N);
-  
+
+  cout<<endl<<"Sorting"<<endl;
   int min, m, move; 
   move =0;
   for (i=0; i<N-1; i++){

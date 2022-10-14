@@ -6,7 +6,8 @@ void insertionSort(int a[], int N){
   
   cout<<endl<<"Before Sorting"<<endl;
   display(a, N);
-  
+
+  cout<<endl<<"Sorting"<<endl;
   for ( i = 1; i<N; i++){
     value = a[i];
     for(j = i-1 ; j >= 0; j--){

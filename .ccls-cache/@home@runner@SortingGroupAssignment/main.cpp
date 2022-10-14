@@ -16,9 +16,9 @@ int main(int argc, char** argv) {
   }
   cout<<endl;
 
-  bubbleSort(a,N);
+  //bubbleSort(a,N);
 
-  //insertionSort(a, N);
+  insertionSort(a, N);
   
   //selectionSort(a, N);
 }
