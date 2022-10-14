@@ -12,9 +12,9 @@ void insertionSort(int a[], int N){
     for(j = i-1 ; j >= 0; j--){
       if (a[j]>value){ a[j+1] = a[j]; move++;}
       else break;
-      
     }
     a[j+1] = value;
+    display(a, N);
     move++;  
   }
   

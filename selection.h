@@ -19,7 +19,7 @@ void selectionSort(int a[], int N){
       }
     }
     if(m!=i) { swap(a[m],a[i]); move+=3; }
-    //display(a,N);
+    display(a,N);
   }
 
   cout<<endl<<"Sorted"<<endl;

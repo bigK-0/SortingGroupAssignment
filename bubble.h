@@ -15,7 +15,7 @@ void bubbleSort(int a[], int N){
         sorted=1;
         move += 3;
       }
-      //display(a,N);
+      display(a, N);
     }
     if(sorted==0) break;
     cout<<endl;
