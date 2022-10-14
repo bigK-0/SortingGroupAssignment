@@ -6,7 +6,8 @@ void bubbleSort(int a[], int N){
   
   cout<<endl<<"Before Sorting"<<endl;
   display(a, N);
-  
+
+  cout<<endl<<"Sorting"<<endl;
   for(i=0;i<N-1;i++){
     sorted=0;
     for(j=0;j<N-(i+1);j++){

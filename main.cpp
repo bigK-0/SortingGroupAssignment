@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
 
   //bubbleSort(a,N);
 
-  insertionSort(a, N);
+  //insertionSort(a, N);
   
-  //selectionSort(a, N);
+  selectionSort(a, N);
 }
